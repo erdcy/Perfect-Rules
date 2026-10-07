@@ -17,16 +17,31 @@
 
 **① Clash Mi → ② Clash / Mihomo → ③ V2rayN**
 
-| **支持客户端**      | **版本** | **客户端** | **功能**              | **配置文件**                                   | **使用方式**             | **教程视频**                 |
-| ------------------- | -------- | ---------- | --------------------- | ---------------------------------------------- | ------------------------ | ---------------------------- |
-| FlClash             | 3.0      | 全平台     | 完美分流/DNS防泄露    | [`FlClash.js`](./Clash/FlClash.js)             | 一键导入                 | https://youtu.be/7RXy43TpjTs |
-| **Clash Mi**        | 3.0      | 全平台     | 完美分流 / DNS 防泄漏 | [`Clash_mi.js`](./Clash/Clash_mi.js)           | 一键导入                 | https://youtu.be/jmJiyDSmZE0 |
-| ** Clash / Mihomo** | 3.0      | PC         | 完美分流 / DNS 防泄漏 | [`Clash_merge.yaml`](./Clash/Clash_merge.yaml) | 复制粘贴（见下方）       | https://youtu.be/2A2SdHP_NKA |
-| ** V2rayN**         | 2.0      | PC         | 完美分流              | [`V2rayN.json`](./V2rayN.json)                 | 下载文件后配置（见下方） | https://youtu.be/eaTmKWPyVG4 |
+| **支持客户端** | **版本** | **客户端** | **功能**              | **配置文件**                                              | **使用方式**             | **教程视频**                 |
+| -------------- | -------- | ---------- | --------------------- | --------------------------------------------------------- | ------------------------ | ---------------------------- |
+| Shadowrocket   | 3.0      | 苹果端     | 完美分流/DNS防泄露    | [`perfect_rules.conf`](./Shadowrocket/perfect_rules.conf) | 一键导入                 | https://youtu.be/zppJJyy6BYo |
+| FlClash        | 3.0      | 全平台     | 完美分流/DNS防泄露    | [`FlClash.js`](./Clash/FlClash.js)                        | 一键导入                 | https://youtu.be/7RXy43TpjTs |
+| **Clash Mi**   | 3.0      | 全平台     | 完美分流 / DNS 防泄漏 | [`Clash_mi.js`](./Clash/Clash_mi.js)                      | 一键导入                 | https://youtu.be/jmJiyDSmZE0 |
+| Clash / Mihomo | 3.0      | PC         | 完美分流 / DNS 防泄漏 | [`Clash_merge.yaml`](./Clash/Clash_merge.yaml)            | 复制粘贴（见下方）       | https://youtu.be/2A2SdHP_NKA |
+| V2rayN         | 2.0      | PC         | 完美分流              | [`V2rayN.json`](./V2rayN.json)                            | 下载文件后配置（见下方） | https://youtu.be/eaTmKWPyVG4 |
 
 **推荐：** 如果你希望在**不同设备上使用统一的**分流规则，并同时解决 DNS 泄漏问题，可以优先选择 **Clash Mi 3.0**。
 
 ------
+
+## Shadowrocket 3.0 ：完美分流 + DNS防泄漏 ——一键配置
+
+macOS和iOS端的Shadowrocket可以使用项目提供的[`perfect_rules.conf`](./Shadowrocket/perfect_rules.conf)，一键导入即可使用。
+
+#### **远程配置地址**
+
+**GitHub Raw：**
+
+```text
+https://github.com/n0de-sudo/Perfect-Rules/raw/refs/heads/main/Shadowrocket/perfect_rules.conf
+```
+
+## **① ⭐ Clash Mi 3.0：完美分流 + DNS 防泄漏——懒人版**
 
 ## FlClash 3.0：完美分流 + DNS防泄漏——一键配置
 
@@ -47,6 +62,7 @@ FlClash 用户可以使用项目提供的[`FlClash.js`](./Clash/FlClash.js)，�
 #### **远程配置地址**
 
 **GitHub Raw：**
+
 ```text
 https://github.com/n0de-sudo/Perfect-Rules/blob/main/Clash/FlClash.js
 ```
